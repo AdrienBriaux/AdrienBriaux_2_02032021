@@ -38,7 +38,12 @@
 {
     height: 25px;
 }
-
+#bloc_page
+{
+    width: 95%;
+    padding: 30px 50px 30px 50px;
+    border: black solid;
+}
 @font-face {
     font-family: 'ralewayregular';
     src: url('raleway-regular-webfont.woff2') format('woff2'),
@@ -56,14 +61,38 @@ body
 header
 {
     display: flex;
-    flex-wrap: wrap;
+    border: solid;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 #titre_principal
 {
-    display: flex;
-    flex-direction: column;
+    border: red solid;
 }
 nav ul
 {
     display: flex;
+    border: blue solid;
+    list-style-type: none;
+}
+#recherche
+{
+    display: flex;
+}
+#recherche a
+{
+    text-decoration: none;
+}
+#filtres
+{
+    display: flex;
+}
+#filtres ul
+{
+    display: flex;
+    list-style-type: none;
+}
+#filtres ul a
+{
+    text-decoration: none;
 }
