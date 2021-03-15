@@ -26,12 +26,10 @@
 {
     height: 30px;
 }
-<<<<<<< HEAD
 .star2
 {
     height: 20px;
 }
-=======
 #ico_link
 {
     height: 30px;
@@ -41,7 +39,6 @@
     height: 25px;
 }
 
->>>>>>> activités
 @font-face {
     font-family: 'ralewayregular';
     src: url('raleway-regular-webfont.woff2') format('woff2'),
