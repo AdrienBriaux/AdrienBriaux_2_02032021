@@ -26,6 +26,10 @@
 {
     height: 30px;
 }
+.star2
+{
+    height: 20px;
+}
 @font-face {
     font-family: 'ralewayregular';
     src: url('raleway-regular-webfont.woff2') format('woff2'),
