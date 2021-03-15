@@ -26,10 +26,22 @@
 {
     height: 30px;
 }
+<<<<<<< HEAD
 .star2
 {
     height: 20px;
 }
+=======
+#ico_link
+{
+    height: 30px;
+}
+.star2
+{
+    height: 25px;
+}
+
+>>>>>>> activités
 @font-face {
     font-family: 'ralewayregular';
     src: url('raleway-regular-webfont.woff2') format('woff2'),
@@ -43,4 +55,18 @@
 body
 {
     font-family: 'ralewayregular';
+}
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+nav ul
+{
+    display: flex;
 }
