@@ -1,6 +1,6 @@
 #ico_map
 {
-    height: 20px;
+    height: 15px;
 }
 #eco
 {
@@ -40,9 +40,9 @@
 }
 #bloc_page
 {
-    width: 95%;
-    padding: 30px 50px 30px 50px;
-    border: black solid;
+    width: 93%;
+    border: 1px black solid;
+    margin: auto;
 }
 @font-face {
     font-family: 'ralewayregular';
@@ -61,27 +61,65 @@ body
 header
 {
     display: flex;
-    border: solid;
+    border: 2px solid;
     justify-content: space-between;
-    align-items: flex-end;
+}
+header h1
+{
+    font-size: 1.5em;
 }
 #titre_principal
 {
     border: red solid;
+    display: flex;
+}
+nav
+{
+    width: 30%;
 }
 nav ul
 {
     display: flex;
-    border: blue solid;
     list-style-type: none;
+    justify-content: space-between;
+    border: blue solid;
+    height: 40px;
+    align-items: flex-end;
+    margin-top: 0px;
+}
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+nav ul a
+{
+    text-decoration: none;
 }
 #recherche
 {
     display: flex;
+    border: 1px grey solid;
+    border-radius: 15px;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+.ico_map
+{
+    display: flex;
+}
+#recherche form
+{
+    background-color: white;
 }
 #recherche a
 {
+    display: flex;
     text-decoration: none;
+    background-color: #0065FC;
+    color:  white;
 }
 #filtres
 {
@@ -95,4 +133,8 @@ nav ul
 #filtres ul a
 {
     text-decoration: none;
+    border: 1px solid grey;
+    justify-content: space-between;
+    margin-right: 20px;
+    border-radius: 90px;
 }
