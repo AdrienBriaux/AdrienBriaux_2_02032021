@@ -1,6 +1,6 @@
 #ico_map
 {
-    height: 15px;
+    height: 18px;
 }
 #eco
 {
@@ -41,7 +41,6 @@
 #bloc_page
 {
     width: 93%;
-    border: 1px black solid;
     margin: auto;
 }
 @font-face {
@@ -61,17 +60,17 @@ body
 header
 {
     display: flex;
-    border: 2px solid;
     justify-content: space-between;
 }
 header h1
 {
     font-size: 1.5em;
 }
+
 #titre_principal
 {
-    border: red solid;
     display: flex;
+    padding-top: 20px;
 }
 nav
 {
@@ -82,7 +81,6 @@ nav ul
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    border: blue solid;
     height: 40px;
     align-items: flex-end;
     margin-top: 0px;
@@ -99,27 +97,35 @@ nav ul a
 #recherche
 {
     display: flex;
-    border: 1px grey solid;
     border-radius: 15px;
-    width: 30%;
-    justify-content: space-around;
+    width: 450px;
     align-items: center;
     background-color: #F2F2F2;
 }
 .ico_map
 {
     display: flex;
+    margin: 10px 20px 10px 20px;
 }
 #recherche form
 {
     background-color: white;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    width: 350px;
 }
-#recherche a
+.bouton_rechercher
 {
     display: flex;
     text-decoration: none;
     background-color: #0065FC;
-    color:  white;
+    width: 110px;
+    justify-content: center;
+}
+.bouton_rechercher a
+{
+    color: white;
+    width: 110px;
 }
 #filtres
 {
@@ -132,9 +138,14 @@ nav ul a
 }
 #filtres ul a
 {
+    display: flex;
     text-decoration: none;
+    align-items: center;
+}
+#filtres li
+{
     border: 1px solid grey;
-    justify-content: space-between;
-    margin-right: 20px;
     border-radius: 90px;
+    margin-right: 20px;
+    
 }
