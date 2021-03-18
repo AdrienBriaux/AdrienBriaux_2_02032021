@@ -89,6 +89,7 @@ nav a:hover
 {
     color: #0065FC;
     border-top: 2px solid #0065FC;
+    padding-top: 10px;
 }
 nav ul a
 {
@@ -101,6 +102,10 @@ nav ul a
     width: 450px;
     align-items: center;
     background-color: #F2F2F2;
+}
+input:active
+{
+    border: 0px;
 }
 .ico_map
 {
@@ -147,5 +152,4 @@ nav ul a
     border: 1px solid grey;
     border-radius: 90px;
     margin-right: 20px;
-    
 }
