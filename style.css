@@ -106,6 +106,8 @@ nav ul a
     text-decoration: none;
     font-weight: bolder;
     color: black;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 #recherche
 {
@@ -154,7 +156,7 @@ input:active
     font-weight: bolder;
     align-items: center;
     font-size: 15px;
-    width: 75%;
+    width: 60%;
     margin-top: 15px;
 }
 #filtres h2
@@ -191,7 +193,7 @@ input:active
     border-radius: 90px;
     height: 20px;
     padding: 12px;
-    margin-right: 12px;
+    margin-right: 13px;
 }
 #baniere_info
 {
