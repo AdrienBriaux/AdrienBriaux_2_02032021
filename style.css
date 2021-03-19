@@ -2,22 +2,6 @@
 {
     height: 18px;
 }
-#eco
-{
-    height: 30px;
-}
-#familial
-{
-    height: 30px;
-}
-#romantique
-{
-    height: 30px;
-}
-#animaux
-{
-    height: 30px;
-}
 #info
 {
     height: 30px;
@@ -111,7 +95,11 @@ nav a:hover
 {
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    padding-top: 10px;
+    padding-top: 27px;
+}
+nav span
+{
+    color: #0065FC;
 }
 nav ul a
 {
@@ -123,7 +111,7 @@ nav ul a
 {
     display: flex;
     border-radius: 15px;
-    width: 450px;
+    width: 40%;
     align-items: center;
     background-color: #F2F2F2;
 }
@@ -141,26 +129,30 @@ input:active
     background-color: white;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
-    width: 350px;
+    width: 290px;
 }
 .bouton_rechercher
 {
     display: flex;
     text-decoration: none;
     background-color: #0065FC;
-    width: 110px;
-    justify-content: center;
+    width: 120px;
+    text-align: center;
+    padding: 16px;
+    border-radius: 0px 15px 15px 0px;
 }
 .bouton_rechercher a
 {
     color: white;
-    width: 110px;
+    width: 100%;
     font-weight: bolder;
+    text-decoration: none;
 }
 #filtres
 {
     display: flex;
     font-weight: bolder;
+    align-items: center;
 }
 #filtres ul
 {
@@ -170,13 +162,24 @@ input:active
 #filtres ul a
 {
     display: flex;
+    padding-right: 15px;
     text-decoration: none;
     align-items: center;
     color: black;
 }
 #filtres li
 {
-    border: 1px solid grey;
-    border-radius: 90px;
+    display: flex;
+    border: 2px solid #F2F2F2;
+    border-left: none;
+    border-radius: 0px 90px 90px 0px;
     margin-right: 20px;
+}
+#filtres img
+{
+    display: flex;
+    background-color: #DEEBFF;
+    border-radius: 90px;
+    height: 20px;
+    padding: 12px;
 }
