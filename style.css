@@ -4,7 +4,7 @@
 }
 #info
 {
-    height: 30px;
+    height: 25px;
 }
 .star
 {
@@ -153,11 +153,20 @@ input:active
     display: flex;
     font-weight: bolder;
     align-items: center;
+    font-size: 15px;
+    width: 75%;
+    margin-top: 15px;
+}
+#filtres h2
+{
+    font-size: 15px;
 }
 #filtres ul
 {
     display: flex;
     list-style-type: none;
+    width: 100%;
+    justify-content: space-between;
 }
 #filtres ul a
 {
@@ -182,4 +191,14 @@ input:active
     border-radius: 90px;
     height: 20px;
     padding: 12px;
+    margin-right: 12px;
+}
+#baniere_info
+{
+    display: flex;
+    align-items: center;
+}
+#baniere_info p
+{
+    margin-left: 0.5em;
 }
