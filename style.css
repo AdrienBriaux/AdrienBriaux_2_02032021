@@ -140,7 +140,7 @@ input:active
     background-color: #0065FC;
     width: 120px;
     text-align: center;
-    padding: 16px;
+    padding: 17px;
     border-radius: 0px 15px 15px 0px;
 }
 .bouton_rechercher a
@@ -156,11 +156,12 @@ input:active
     font-weight: bolder;
     align-items: center;
     font-size: 15px;
-    width: 60%;
+    width: 75%;
     margin-top: 15px;
 }
 #filtres h2
 {
+    display: flex;
     font-size: 15px;
 }
 #filtres ul
@@ -173,7 +174,6 @@ input:active
 #filtres ul a
 {
     display: flex;
-    padding-right: 15px;
     text-decoration: none;
     align-items: center;
     color: black;
@@ -184,7 +184,10 @@ input:active
     border: 2px solid #F2F2F2;
     border-left: none;
     border-radius: 0px 90px 90px 0px;
-    margin-right: 20px;
+}
+#filtres span li
+{
+    border: none;
 }
 #filtres img
 {
