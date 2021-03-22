@@ -8,7 +8,7 @@
 }
 .star
 {
-    height: 30px;
+    height: 18px;
 }
 .star2
 {
@@ -225,8 +225,25 @@ input:active
 {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 40px grey;
+    width: 26%;
+    margin-bottom: 25px;
+}
+.hebergements1 h3, p, span
+{
+    margin-left: 10px;
 }
 .heber
 {
+    border-radius: 18px 18px 0px 0px;
     height: 7em;
+}
+.bouton_afficher_plus
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
 }
