@@ -207,3 +207,26 @@ input:active
 {
     margin-left: 0.5em;
 }
+#hébergements
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    width: 72%;
+}
+.hebergements1
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.hebergements1 div
+{
+    display: flex;
+    flex-direction: column;
+}
+.heber
+{
+    height: 7em;
+}
