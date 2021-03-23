@@ -211,6 +211,10 @@ input:active
     border-radius: 25px;
     width: 65%;
 }
+#hébergements h2
+{
+    margin-left: 1.3em;
+}
 .hebergements1
 {
     display: flex;
@@ -225,12 +229,15 @@ input:active
     border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 1px 1px 40px grey;
-    width: 26%;
+    width: 27%;
     margin-bottom: 25px;
 }
 .hebergements1 h3, p, span
 {
+    display: flex;
     margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .heber
 {
@@ -242,6 +249,8 @@ input:active
     text-decoration: none;
     font-weight: bolder;
     color: black;
+    margin-left: 2em;
+    padding-top: 1em;
 }
 aside
 {
@@ -251,13 +260,14 @@ aside
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .pop
 {
     display: flex;
     flex-direction: row-reverse;
     border: 4px solid white;
+    background-color: red;
     border-radius: 20px 0px 0px 20px;
     width: 85%;
     height: 8em;
@@ -266,6 +276,9 @@ section
 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3em;
+    margin-top: 1.8em;
+    height: 37em;
 }
 .pop1
 {
@@ -277,7 +290,7 @@ section
 {
     display: flex;
     width: 100%;
-    margin-top: 3em;
+    margin-top: 1em;
     margin-bottom: 3em;
     height: 35em;
     justify-content: space-between;
@@ -316,6 +329,10 @@ section
     border-radius: 20px;
     box-shadow: 3px 3px 25px #F2F2F2;
     height: 45%;
+}
+#activités h3
+{
+    margin-left: 20px;
 }
 footer
 {
