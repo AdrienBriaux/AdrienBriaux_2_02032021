@@ -275,14 +275,21 @@ section
     display: flex;
     width: 100%;
     margin-top: 3em;
+    margin-bottom: 3em;
     height: 35em;
     justify-content: space-between;
 }
-#activités img
+#activités .act img
 {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
     height: 100%;
+}
+#activités .act2 img
+{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 50%;
 }
 .act
 {
@@ -296,6 +303,8 @@ section
 }
 .act2
 {
+    display: flex;
+    flex-direction: column;
     width: 22em;
 }
 .act2 div
@@ -303,7 +312,7 @@ section
     border: 1px solid yellow;
     border-radius: 20px;
     box-shadow: 3px 3px 25px #F2F2F2;
-    height: 100%;
+    height: 45%;
 }
 footer
 {
