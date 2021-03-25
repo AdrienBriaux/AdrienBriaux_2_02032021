@@ -17,7 +17,6 @@
 #ico_link
 {
     height: 30px;
-    margin-left: auto;
 }
 #bloc_page
 {
@@ -244,7 +243,7 @@ input:active
 }
 .heber
 {
-    border-radius: 18px 18px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
     height: 7em;
 }
 .bouton_afficher_plus
@@ -279,6 +278,10 @@ aside h3
 {
     margin: initial;
 }
+.link a
+{
+    margin-left: auto;
+}
 .pop
 {
     display: flex;
@@ -288,6 +291,7 @@ aside h3
     border: 4px solid white;
     background-color: white;
     border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 40px grey;
     width: 85%;
     height: 8em;
 }
@@ -335,7 +339,6 @@ section
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    border: 1px solid red;
     border-radius: 20px;
     box-shadow: 3px 3px 25px #F2F2F2;
     width: 22em;
@@ -346,9 +349,12 @@ section
     flex-direction: column;
     width: 22em;
 }
+.act2 h3
+{
+    margin-top: 3%;
+}
 .act2 div
 {
-    border: 1px solid yellow;
     border-radius: 20px;
     box-shadow: 3px 3px 25px #F2F2F2;
     height: 45%;
@@ -370,6 +376,7 @@ footer ul
 }
 footer a
 {
+    margin-bottom: 4%;
     text-decoration: none;
     color: black;
     display: flex;
@@ -380,6 +387,10 @@ h3
 }
 footer div
 {
-    margin-right: 20%;
-    margin-left: 3.5%;
+    margin-right: 18%;
+    margin-left: 1%;
+}
+footer h3
+{
+    padding-left: 40px;
 }
