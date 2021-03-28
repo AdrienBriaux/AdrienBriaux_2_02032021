@@ -180,8 +180,24 @@ input:active
     display: flex;
     border: 2px solid #F2F2F2;
     border-left: none;
-    border-radius: 22px;
+    border-radius: 28px;
     padding-right: 20px;
+}
+.eco:hover
+{
+    background-color: green;
+}
+.fami:hover
+{
+    background-color: yellow;
+}
+.roman:hover
+{
+    background-color: pink;
+}
+.animaux:hover
+{
+    background-color: saddlebrown;
 }
 #filtres span li
 {
