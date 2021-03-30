@@ -1,0 +1,31 @@
+footer
+{
+    display: flex;
+    background-color: #F2F2F2;
+}
+footer ul
+{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+}
+footer a
+{
+    margin-bottom: 4%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+h3
+{
+    font-weight: bolder;
+}
+footer div
+{
+    margin-right: 18%;
+    margin-left: 1%;
+}
+footer h3
+{
+    padding-left: 40px;
+}
