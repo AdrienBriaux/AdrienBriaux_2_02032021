@@ -2,6 +2,7 @@ header
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 header h1
 {
@@ -16,6 +17,7 @@ header h1
 }
 nav
 {
+    align-items: flex-end;
     width: 30%;
 }
 nav ul
@@ -26,6 +28,11 @@ nav ul
     height: 40px;
     align-items: flex-end;
     margin-top: 0px;
+    margin-left: 35em;
+}
+.inscription
+{
+    ùargi
 }
 nav a:hover
 {
