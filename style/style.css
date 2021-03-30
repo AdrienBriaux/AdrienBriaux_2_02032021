@@ -202,3 +202,15 @@ section
     width: 10em;
     border-radius: 15px 0px 0px 15px;
 }
+@media all and (max-device-width: 480px)
+{
+    #bloc_page
+    {
+        width: 100%;
+        word-wrap: break-word;
+    }
+    section 
+    {
+        width: 100%;
+    }
+}
