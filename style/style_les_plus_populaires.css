@@ -12,6 +12,10 @@ aside h3
 {
     margin: auto;
 }
+#ico_link
+{
+    height: 30px;
+}
 .link
 {
     display: flex;

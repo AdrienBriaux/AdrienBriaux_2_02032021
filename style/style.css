@@ -6,23 +6,28 @@
 {
     height: 25px;
 }
-.star
-{
-    height: 18px;
-}
 .star2
 {
     height: 14px;
-}
-#ico_link
-{
-    height: 30px;
 }
 #bloc_page
 {
     width: 1440px;
     margin: auto;
 }
+#titre_principal
+{
+    padding-top: 20px;   
+}
+#titre_principal h1
+{
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+#titre_principal p
+{
+    margin-top: 5px;
+} 
 i
 {
     color: #0065FC;
