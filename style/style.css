@@ -23,6 +23,14 @@
     width: 93%;
     margin: auto;
 }
+i
+{
+    color: #0065FC;
+    padding: 15px;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    margin-right: 13px;
+}
 @font-face {
     font-family: 'ralewayregular';
     src: url('Fonts/raleway-regular-webfont.woff2') format('woff2'),
