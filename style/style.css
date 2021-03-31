@@ -76,7 +76,7 @@ body
 {
     display: flex;
     border-radius: 15px;
-    width: 25%;
+    width: 30%;
     align-items: center;
     background-color: #F2F2F2;
 }
@@ -133,6 +133,7 @@ input:active
     list-style-type: none;
     width: 100%;
     justify-content: space-between;
+    margin-left: 13px;
     padding-inline-start: 0px;
 }
 #filtres ul a
@@ -184,10 +185,6 @@ input:active
     display: flex;
     align-items: center;
 }
-#baniere_info p
-{
-    margin-left: 0.5em;
-}
 section
 {
     display: flex;
@@ -202,7 +199,7 @@ section
     width: 10em;
     border-radius: 15px 0px 0px 15px;
 }
-@media all and (max-device-width: 480px)
+@media only screen and (max-device-width: 480px)
 {
     #bloc_page
     {
