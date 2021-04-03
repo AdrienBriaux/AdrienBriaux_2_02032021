@@ -12,8 +12,8 @@
 }
 #bloc_page
 {
-    width: 1440px;
-    margin: auto;
+    width: 100vw;
+    padding: 3rem;
 }
 #titre_principal
 {
@@ -94,7 +94,7 @@ input:active
     background-color: white;
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
-    width: 290px;
+    width: 100%;
 }
 .bouton_rechercher
 {
