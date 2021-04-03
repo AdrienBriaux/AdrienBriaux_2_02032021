@@ -39,32 +39,32 @@ i
 }
 @font-face {
     font-family: 'ralewayregular';
-    src: url('Fonts/raleway-regular-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-regular-webfont.woff') format('woff'),
-         url('Fonts/raleway-regular-webfont.ttf') format('truetype'),
-         url('Fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    src: url('../Fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../Fonts/raleway-regular-webfont.woff') format('woff'),
+         url('../Fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('../Fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'ralewaybold';
-    src: url('Fonts/raleway-bold-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-bold-webfont.woff') format('woff');
+    src: url('../Fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../Fonts/raleway-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'ralewaybold';
-    src: url('Fonts/raleway-bold-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-bold-webfont.woff') format('woff');
+    src: url('../Fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../Fonts/raleway-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'ralewayextrabold';
-    src: url('Fonts/raleway-extrabold-webfont.woff2') format('woff2'),
-         url('Fonts/raleway-extrabold-webfont.woff') format('woff');
+    src: url('../Fonts/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('../Fonts/raleway-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -211,16 +211,10 @@ section
     float: left;
     padding: 15px;
   }
-  [class*="col-"] {
-    width: 100%;
-  }
-  @media only screen and (max-width: 480px)
-  {
     [class*="col-"]
     {
       width: 100%;
     }
-  }
   @media only screen and (min-width: 600px)
   {
     .col-s-1 {width: 8.33%;}
