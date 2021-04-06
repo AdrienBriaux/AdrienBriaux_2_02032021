@@ -48,3 +48,13 @@
 {
     margin-left: 20px;
 }
+@media all and (max-width: 480px)
+{
+    #activités
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+}
