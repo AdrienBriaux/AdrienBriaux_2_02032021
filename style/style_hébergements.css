@@ -71,5 +71,6 @@
         width: 100%;
         background-color: transparent;
         border-radius: 0;
+        order: 2;
     }
 }

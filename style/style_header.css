@@ -83,4 +83,8 @@ nav ul a
     {
         display:inline-block
     }
+    .inscription
+    {
+        padding: 0%;
+    }
 }
