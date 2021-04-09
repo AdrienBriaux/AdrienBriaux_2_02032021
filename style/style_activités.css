@@ -30,6 +30,7 @@
     border-radius: 20px;
     box-shadow: 3px 3px 25px #F2F2F2;
     width: 20em;
+    grid-row: span 2;
     
 }
 .act2
