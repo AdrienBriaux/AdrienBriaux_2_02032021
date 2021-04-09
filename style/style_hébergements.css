@@ -4,7 +4,6 @@
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 25px;
-    width: 65%;
 }
 .star
 {
@@ -16,19 +15,16 @@
 }
 .hebergements1
 {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 25px;
 }
 .hebergements1 div
 {
-    display: flex;
-    flex-direction: column;
     background-color: white;
     border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 1px 1px 40px grey;
-    width: 27%;
     margin-bottom: 25px;
 }
 .hebergements1 h3, .hebergements1 p, .hebergements1 span
