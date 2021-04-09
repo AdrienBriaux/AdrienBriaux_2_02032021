@@ -16,8 +16,9 @@
 .hebergements1
 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 250px 250px 250px;
     grid-gap: 25px;
+    padding: 25px;
 }
 .hebergements1 div
 {
@@ -25,7 +26,6 @@
     border: 5px solid white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 1px 1px 40px grey;
-    margin-bottom: 25px;
 }
 .hebergements1 h3, .hebergements1 p, .hebergements1 span
 {
@@ -38,6 +38,7 @@
 {
     border-radius: 15px 15px 0px 0px;
     height: 7em;
+    width: 100%;
 }
 .bouton_afficher_plus
 {
