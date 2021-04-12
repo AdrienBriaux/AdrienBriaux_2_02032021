@@ -64,12 +64,17 @@
         height: 76%;
     }
 }
-
-@media all and (max-width: 480px) {
-    #activités {
-        display  : flex;
-        flex-wrap: wrap;
-        width    : 100%;
+@media all and (max-width: 850px){
+    #activités
+    {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 250px 250px 250px;
     }
+}
 
+@media all and (max-width: 624px){
+    #activités
+    {
+        grid-template-columns: auto;
+    }
 }

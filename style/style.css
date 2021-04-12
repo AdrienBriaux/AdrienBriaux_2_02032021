@@ -263,3 +263,9 @@ section {
         background-color: red;
     }
 }
+@media all and (max-width: 1024px){
+    section
+    {
+        grid-template-columns: auto;
+    }
+}

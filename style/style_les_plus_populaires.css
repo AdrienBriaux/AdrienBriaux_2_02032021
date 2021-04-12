@@ -47,7 +47,12 @@ aside h3 {
 .pop div {
     margin-left: 5%;
 }
-
+@media all and (max-width: 1024px){
+    aside
+    {
+        width: 100%;
+    }
+}
 @media all and (max-width: 480px) {
     aside {
         width: 100%;
