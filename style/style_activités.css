@@ -1,7 +1,7 @@
 #activités
 {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 250px 250px;
     grid-gap: 25px;
     margin-top: 1em;
@@ -26,7 +26,6 @@
     justify-content: flex-end;
     border-radius: 20px;
     box-shadow: 3px 3px 25px #F2F2F2;
-    width: 19em;
     grid-row: span 2;
     
 }
@@ -37,7 +36,6 @@
     justify-content: flex-end;
     border-radius: 20px;
     box-shadow: 3px 3px 25px #F2F2F2;
-    width: 19em;
 }
 .act2 h3
 {
