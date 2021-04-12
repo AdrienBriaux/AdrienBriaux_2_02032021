@@ -4,11 +4,8 @@
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 250px 250px;
     grid-gap: 25px;
-    width: 100%;
     margin-top: 1em;
     margin-bottom: 3em;
-    height: 35em;
-    justify-content: space-between;
 }
 #activités .act img
 {
@@ -16,11 +13,11 @@
     width: 100%;
     height: 100%;
 }
-#activités .act2 img
+#activités .act1 img
 {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
-    height: 78%;
+    height: 76%;
 }
 .act
 {
@@ -29,15 +26,18 @@
     justify-content: flex-end;
     border-radius: 20px;
     box-shadow: 3px 3px 25px #F2F2F2;
-    width: 20em;
+    width: 19em;
     grid-row: span 2;
     
 }
-.act2
+.act1
 {
     display: flex;
     flex-direction: column;
-    width: 20em;
+    justify-content: flex-end;
+    border-radius: 20px;
+    box-shadow: 3px 3px 25px #F2F2F2;
+    width: 19em;
 }
 .act2 h3
 {
