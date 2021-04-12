@@ -1,74 +1,79 @@
-#hébergements
-{
-    display: flex;
-    flex-direction: column;
+#hébergements {
+    display         : flex;
+    flex-direction  : column;
     background-color: #F2F2F2;
-    border-radius: 25px;
+    border-radius   : 25px;
 }
-.star
-{
+
+.star {
     height: 18px;
 }
-#hébergements h2
-{
-    margin-left: 1.3em;
+
+#hébergements h2 {
+    margin-left  : 1.3em;
     margin-bottom: 0;
 }
-.hebergements1
-{
-    display: grid;
+
+.hebergements1 {
+    display              : grid;
     grid-template-columns: 250px 250px 250px;
-    grid-gap: 25px;
-    padding: 25px;
+    grid-gap             : 25px;
+    padding              : 25px;
 }
-.hebergements1 div
-{
+
+.hebergements1 div {
     background-color: white;
-    border: 5px solid white;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 1px 1px 40px grey;
+    border          : 5px solid white;
+    border-radius   : 20px 20px 20px 20px;
+    box-shadow      : 1px 1px 40px grey;
 }
-.hebergements1 h3, .hebergements1 p, .hebergements1 span
-{
-    display: flex;
-    margin-left: 10px;
-    margin-top: 2px;
+
+.hebergements1 h3,
+.hebergements1 p,
+.hebergements1 span {
+    display      : flex;
+    margin-left  : 10px;
+    margin-top   : 2px;
     margin-bottom: 2px;
 }
-.heber
-{
+
+.heber {
     border-radius: 15px 15px 0px 0px;
-    height: 7em;
-    width: 100%;
+    height       : 7em;
+    width        : 100%;
 }
-.bouton_afficher_plus
-{
+
+.bouton_afficher_plus {
     text-decoration: none;
-    font-weight: bolder;
-    color: black;
-    margin-left: 2em;
-    padding-top: 1em;
+    font-weight    : bolder;
+    color          : black;
+    margin-left    : 2em;
+    padding-top    : 1em;
+    padding-bottom: 2em;
 }
-@media all and (max-width: 480px)
-{
-    .hebergements1
-    {
-        flex-direction: column;
+
+@media all and (max-width: 1340px) {
+
+    .hebergements1 {
+        grid-template-columns: auto auto;
     }
-    .hebergements1 div
-    {
-        width: 90%;
+}
+
+@media all and (max-width: 480px) {
+
+    .hebergements1 div {
+        width : 90%;
         margin: 16px;
     }
-    #hébergements h2
-    {
+
+    #hébergements h2 {
         margin-left: 16px;
     }
-    #hébergements
-    {
-        width: 100%;
+
+    #hébergements {
+        width           : 100%;
         background-color: transparent;
-        border-radius: 0;
-        order: 2;
+        border-radius   : 0;
+        order           : 2;
     }
 }
