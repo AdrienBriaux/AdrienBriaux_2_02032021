@@ -1,63 +1,75 @@
-#activités
-{
-    display: grid;
+#activités {
+    display              : grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 250px 250px;
-    grid-gap: 25px;
-    margin-top: 1em;
-    margin-bottom: 3em;
+    grid-template-rows   : 250px 250px;
+    grid-gap             : 25px;
+    margin-top           : 1em;
+    margin-bottom        : 3em;
 }
-#activités .act img
-{
+
+#activités .act img {
     border-radius: 20px 20px 0px 0px;
-    width: 100%;
-    height: 100%;
+    width        : 100%;
+    height       : 100%;
 }
-#activités .act1 img
-{
+
+#activités .act1 img {
     border-radius: 20px 20px 0px 0px;
-    width: 100%;
-    height: 76%;
+    width        : 100%;
+    height       : 76%;
 }
-.act
-{
-    display: flex;
-    flex-direction: column;
+
+.act {
+    display        : flex;
+    flex-direction : column;
     justify-content: flex-end;
-    border-radius: 20px;
-    box-shadow: 3px 3px 25px #F2F2F2;
-    grid-row: span 2;
-    
+    border-radius  : 20px;
+    box-shadow     : 3px 3px 25px #F2F2F2;
+    grid-row       : span 2;
+
 }
-.act1
-{
-    display: flex;
-    flex-direction: column;
+
+.act1 {
+    display        : flex;
+    flex-direction : column;
     justify-content: flex-end;
-    border-radius: 20px;
-    box-shadow: 3px 3px 25px #F2F2F2;
+    border-radius  : 20px;
+    box-shadow     : 3px 3px 25px #F2F2F2;
 }
-.act2 h3
-{
+
+.act2 h3 {
     margin-top: 3%;
 }
-.act2 div
-{
+
+.act2 div {
     border-radius: 20px;
-    box-shadow: 3px 3px 25px #F2F2F2;
-    height: 46%;
+    box-shadow   : 3px 3px 25px #F2F2F2;
+    height       : 46%;
 }
-#activités h3
-{
+
+#activités h3 {
     margin-left: 20px;
 }
-@media all and (max-width: 480px)
-{
-    #activités
+
+@media all and (max-width: 1278px) {
+    #activités {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .act {
+        grid-row: span 1;
+    }
+    #activités .act img
     {
-        display: flex;
+        height: 76%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #activités {
+        display  : flex;
         flex-wrap: wrap;
-        width: 100%;
+        width    : 100%;
     }
 
 }
