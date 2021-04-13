@@ -220,16 +220,7 @@ section {
     margin-top           : 1.8em;
 }
 
-.pop1 {
-    height       : 100%;
-    width        : 10em;
-    border-radius: 15px 0px 0px 15px;
-}
     @media all and (max-width: 480px) {
-        #bloc_page {
-            background-color: turquoise;
-        }
-
         #recherche {
             width : auto;
             margin: auto;

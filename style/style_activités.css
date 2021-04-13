@@ -8,7 +8,10 @@
     padding-left: 25px;
     padding-right: 25px;
 }
-
+div h2
+{
+    padding-left: 25px;
+}
 #activités .act img {
     border-radius: 20px 20px 0px 0px;
     width        : 100%;

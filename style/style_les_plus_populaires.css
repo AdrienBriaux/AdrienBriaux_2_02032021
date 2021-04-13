@@ -30,7 +30,11 @@ aside h3 {
     border-radius   : 20px 20px 20px 20px;
     box-shadow      : 1px 1px 40px grey;
 }
-
+.pop1 {
+    height       : 100%;
+    width        : 35%;
+    border-radius: 15px 0px 0px 15px;
+}
 .pop div {
     margin-left: 5%;
 }
@@ -57,9 +61,10 @@ aside h3 {
     }
 }
 @media all and (max-width: 850px){
-    aside
+    .container
     {
-        border-radius: 0;
+        grid-template-rows: 197px 197px 197px;
+        grid-template-columns: auto;
     }
 }
 @media all and (max-width: 480px) {
@@ -69,9 +74,4 @@ aside h3 {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    .pop
-    {
-        margin-top: 20px;
-    }
-
 }

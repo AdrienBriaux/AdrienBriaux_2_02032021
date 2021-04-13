@@ -10,7 +10,6 @@
 }
 
 #hébergements h2 {
-    margin-left  : 1.3em;
     margin-bottom: 0;
 }
 
@@ -70,20 +69,14 @@
         border-radius: 0;
     }
 }
-
+@media all and (max-width: 624px){
+    .hebergements1
+    {
+        grid-template-columns: auto;
+    }
+}
 @media all and (max-width: 480px) {
-
-    .hebergements1 div {
-        width : 90%;
-        margin: 16px;
-    }
-
-    #hébergements h2 {
-        margin-left: 16px;
-    }
-
     #hébergements {
-        width           : 100%;
         background-color: transparent;
         border-radius   : 0;
         order           : 2;
