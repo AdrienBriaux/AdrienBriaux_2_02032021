@@ -13,7 +13,7 @@ aside h2
 .container
 {
     display: grid;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 150px 150px 150px;
     padding: 25px;
     grid-gap: 25px;
 }
@@ -29,7 +29,6 @@ aside h3 {
     background-color: white;
     border-radius   : 20px 20px 20px 20px;
     box-shadow      : 1px 1px 40px grey;
-    height          : 8em;
 }
 
 .pop div {
@@ -40,20 +39,27 @@ aside h3 {
     {
         grid-template-rows: 197px 197px 197px;
     }
-    .pop
-    {
-        height: 100%;
-    }
 }
 @media all and (max-width: 1024px){
     aside
     {
         width: 100%;
+        border-radius: 0;
     }
     .container
     {
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 197px 197px;
+    }
+    aside
+    {
+        grid-row: 1;
+    }
+}
+@media all and (max-width: 850px){
+    aside
+    {
+        border-radius: 0;
     }
 }
 @media all and (max-width: 480px) {

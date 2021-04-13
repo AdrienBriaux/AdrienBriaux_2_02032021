@@ -86,6 +86,7 @@ i {
 
 body {
     font-family: 'ralewayregular';
+    margin: 0;
 }
 
 #recherche {
@@ -224,48 +225,42 @@ section {
     width        : 10em;
     border-radius: 15px 0px 0px 15px;
 }
+    @media all and (max-width: 480px) {
+        #bloc_page {
+            background-color: turquoise;
+        }
 
-@media all and (max-width: 480px) {
-    #bloc_page {
-        background-color: turquoise;
-        padding         : 0rem;
-        width           : 100%;
+        #recherche {
+            width : auto;
+            margin: auto;
+        }
+
+        input {
+            width: -webkit-fill-available;
+        }
+
+        #filtres {
+            width: 100%;
+        }
+
+        #filtres ul {
+            display  : flex;
+            flex-wrap: wrap;
+        }
+
+        section {
+            display       : flex;
+            flex-direction: column;
+            width         : 100%;
+        }
     }
 
-    #recherche {
-        width : auto;
-        margin: auto;
-    }
+    @media all and (max-width: 1024px) {
+        section {
+            grid-template-columns: auto;
+        }
 
-    input {
-        width: -webkit-fill-available;
+        body {
+            margin: 0;
+        }
     }
-
-    #filtres {
-        width: 100%;
-    }
-
-    #filtres ul {
-        display  : flex;
-        flex-wrap: wrap;
-    }
-
-    section {
-        display       : flex;
-        flex-direction: column;
-        width         : 100%;
-    }
-}
-
-@media all and (max-width: 1340px) {
-    #bloc_page {
-
-        background-color: red;
-    }
-}
-@media all and (max-width: 1024px){
-    section
-    {
-        grid-template-columns: auto;
-    }
-}

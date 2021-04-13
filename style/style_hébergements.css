@@ -62,6 +62,12 @@
 @media all and (max-width: 1024px) {
     .hebergements1 {
         grid-template-columns: auto auto;
+        grid-template-rows   : 205px 205px 205px;
+    }
+    #hébergements
+    {
+        background-color: white;
+        border-radius: 0;
     }
 }
 
