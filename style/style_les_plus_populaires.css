@@ -8,29 +8,15 @@ aside {
     justify-content : space-around;
     min-width       : 390px;
 }
-
+aside h2
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
 aside h3 {
     margin: auto;
 }
-
-#ico_link {
-    height: 30px;
-}
-
-.link {
-    display    : flex;
-    align-items: center;
-    width      : 85%;
-}
-
-.link h2 {
-    margin: initial;
-}
-
-.link a {
-    margin-left: auto;
-}
-
 .pop {
     display         : flex;
     flex-direction  : row-reverse;
