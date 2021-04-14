@@ -1,34 +1,32 @@
 footer {
     display         : flex;
     background-color: #F2F2F2;
+    padding: 30px 0 30px 25px;
 }
 
 footer ul {
-    display        : flex;
+    display        : contents;
     list-style-type: none;
     flex-direction : column;
 }
 
 footer a {
-    margin-bottom  : 4%;
+    margin-bottom  : 10px;
     text-decoration: none;
     color          : black;
     display        : flex;
 }
 
-h3 {
+footer h3 {
     font-weight: bolder;
+    margin-top: 0;
 }
 
 footer div {
     margin-right: 18%;
-    margin-left : 1%;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
 }
-
-footer h3 {
-    padding-left: 40px;
-}
-
 @media all and (max-width: 480px) {
     footer {
         flex-direction: column;

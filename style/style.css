@@ -27,17 +27,19 @@
 }
 
 #bloc_page {
-    max-width: 1300px;
+    max-width: 1350px;
     margin   : auto;
 }
 
 #titre_principal h1 {
     margin-bottom: 0px;
     font-size    : 1.5em;
+    padding-left : 25px;
 }
 
 #titre_principal p {
-    margin-top: 5px;
+    margin-top  : 5px;
+    padding-left: 25px;
 }
 
 i {
@@ -86,15 +88,16 @@ i {
 
 body {
     font-family: 'ralewayregular';
-    margin: 0;
+    margin     : 0;
 }
 
 #recherche {
     display         : flex;
     border-radius   : 15px;
-    width           : 30%;
+    width           : 430px;
     align-items     : stretch;
     background-color: #F2F2F2;
+    margin-left: 25px;
 }
 
 input:active,
@@ -220,38 +223,37 @@ section {
     margin-top           : 1.8em;
 }
 
-    @media all and (max-width: 480px) {
-        #recherche {
-            width : auto;
-            margin: auto;
-        }
-
-        input {
-            width: -webkit-fill-available;
-        }
-
-        #filtres {
-            width: 100%;
-        }
-
-        #filtres ul {
-            display  : flex;
-            flex-wrap: wrap;
-        }
-
-        section {
-            display       : flex;
-            flex-direction: column;
-            width         : 100%;
-        }
+@media all and (max-width: 480px) {
+    #recherche {
+        width : auto;
     }
 
-    @media all and (max-width: 1024px) {
-        section {
-            grid-template-columns: auto;
-        }
-
-        body {
-            margin: 0;
-        }
+    input {
+        width: -webkit-fill-available;
     }
+
+    #filtres {
+        width: 100%;
+    }
+
+    #filtres ul {
+        display  : flex;
+        flex-wrap: wrap;
+    }
+
+    section {
+        display       : flex;
+        flex-direction: column;
+        width         : 100%;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    section {
+        grid-template-columns: auto;
+    }
+
+    body {
+        margin: 0;
+    }
+}
