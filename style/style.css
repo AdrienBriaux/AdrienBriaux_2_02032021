@@ -34,12 +34,13 @@
 #titre_principal h1 {
     margin-bottom: 0px;
     font-size    : 1.5em;
-    padding-left : 25px;
+    font-weight  : bolder;
+    padding      : 0 25px;
 }
 
 #titre_principal p {
-    margin-top  : 5px;
-    padding-left: 25px;
+    margin-top: 5px;
+    padding   : 0 25px;
 }
 
 i {
@@ -97,7 +98,7 @@ body {
     width           : 430px;
     align-items     : stretch;
     background-color: #F2F2F2;
-    margin-left: 25px;
+    margin-left     : 25px;
 }
 
 input:active,
@@ -148,13 +149,14 @@ input:focus {
     font-weight: bolder;
     align-items: center;
     font-size  : 15px;
-    width      : 75%;
+    max-width  : 1000px;
     margin-top : 15px;
+    padding    : 0 25px;
 }
 
 #filtres h2 {
-    display  : flex;
-    font-size: 15px;
+    font-size  : 15px;
+    margin-left: 0;
 }
 
 #filtres ul {
@@ -164,6 +166,7 @@ input:focus {
     justify-content     : space-between;
     margin-left         : 13px;
     padding-inline-start: 0px;
+    flex-wrap           : wrap;
 }
 
 #filtres ul a {
@@ -225,7 +228,7 @@ section {
 
 @media all and (max-width: 480px) {
     #recherche {
-        width : auto;
+        width: auto;
     }
 
     input {
