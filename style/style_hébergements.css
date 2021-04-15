@@ -51,6 +51,14 @@
     padding-top    : 1em;
     padding-bottom : 2em;
 }
+.hebergements1 i
+{
+    color: #0065FC;
+    padding: 0%;
+    background-color: white;
+    margin: 0%;
+
+}
 
 @media all and (max-width: 1340px) {
 

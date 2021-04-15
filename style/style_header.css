@@ -75,15 +75,3 @@ nav ul a {
         padding-bottom: 10px;
     }
 }
-
-@media all and (max-width: 480px) {
-    #titre_principal {
-        padding-left : 1em;
-        padding-right: 1em;
-    }
-
-    #titre_principal h1 {
-        font-size    : 1.5em;
-        margin-bottom: 0.5em;
-    }
-}
