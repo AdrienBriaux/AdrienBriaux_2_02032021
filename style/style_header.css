@@ -1,98 +1,89 @@
-header
-{
-    display: flex;
+header {
+    display    : flex;
     align-items: center;
     padding-top: 20px;
-    flex-wrap: wrap;
+    flex-wrap  : wrap;
 
 }
-#logo:nth-child(1){
+
+#logo:nth-child(1) {
     flex: 1;
 }
-#logo
-{
+
+#logo {
     padding-left: 25px;
 }
-#logo img
-{
+
+#logo img {
     padding-right: 25px;
 }
-nav ul
-{
-    display: flex;
+
+nav ul {
+    display        : flex;
     list-style-type: none;
-    height: 35px;
-    align-items: center;
-    padding: 0;
+    height         : 35px;
+    align-items    : center;
+    padding        : 0;
 }
-.inscription
-{
-    padding: 15px;
+
+.inscription {
+    padding    : 15px;
     font-weight: bolder;
-    color: #0065FC;
-    margin: 0 10px 0 10px;
+    color      : #0065FC;
+    margin     : 0 10px 0 10px;
 }
-.inscription:hover
-{
-    background: #F2F2F2;
+
+.inscription:hover {
+    background   : #F2F2F2;
     border-radius: 25px;
-    box-shadow: 0px 0px 5px 1px;
-    
+    box-shadow   : 0px 0px 5px 1px;
+
 }
-nav a:hover
-{
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
+
+nav a:hover {
+    color      : #0065FC;
+    border-top : 2px solid #0065FC;
     padding-top: 42px;
 }
-nav span
-{
+
+nav span {
     color: #0065FC;
 }
-nav ul a
-{
+
+nav ul a {
     text-decoration: none;
-    font-weight: bolder;
-    color: black;
-    padding: 0 25px 0 25px;
+    font-weight    : bolder;
+    color          : black;
+    padding        : 0 25px 0 25px;
 }
-@media all and (max-width:553px){
-    nav:nth-child(2){
+
+@media all and (max-width:553px) {
+    nav:nth-child(2) {
         order: 1;
     }
-    nav
-    {
+
+    nav {
         width: 100%;
     }
-}
-@media all and (max-width: 480px)
-{
-    header
-    {
-        background-color: turquoise;
-        flex-direction: column;
-        align-items: flex-start;
+
+    nav ul {
+        justify-content: space-around;
     }
-    #titre_principal 
-    {
-        padding-left: 1em;
+    nav a:hover {
+        border-top    : none;
+        border-bottom : 2px solid #0065FC;
+        padding-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #titre_principal {
+        padding-left : 1em;
         padding-right: 1em;
     }
-    #titre_principal h1 
-    {
-        font-size: 1.5em;
+
+    #titre_principal h1 {
+        font-size    : 1.5em;
         margin-bottom: 0.5em;
-    }
-    nav ul a 
-    {
-        padding-left: 0px;
-    }
-    .inscription
-    {
-        display:inline-block
-    }
-    .inscription
-    {
-        padding: 0%;
     }
 }
