@@ -1,31 +1,16 @@
-.ico_map {
-    display         : flex;
-    justify-content : center;
-    align-items     : center;
-    background-color: #F2F2F2;
-    border-radius   : 15px 0 0 15px;
-    margin : 10px 20px 10px 20px;
-}
-
-.ico_map i {
-    background-color: transparent;
-    margin-right    : 0;
-    padding         : 0;
-    color           : black;
-}
-
-.star2 {
-    height: 14px;
-}
-
 #bloc_page {
     max-width: 1350px;
     margin   : auto;
 }
 
-#bloc_page h2
-{
+#bloc_page h2 {
     padding: 0 25px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "ralewaybold";
 }
 
 #titre_principal h1 {
@@ -76,9 +61,24 @@ body {
     display         : flex;
     border-radius   : 15px;
     width           : 430px;
-    align-items     : stretch;
-    background-color: #F2F2F2;
     margin-left     : 25px;
+    padding-right: 25px;
+}
+
+.ico_map {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: #F2F2F2;
+    padding          : 10px 20px 10px 20px;
+    border-radius: 15px 0 0 15px;
+}
+
+.ico_map i {
+    background-color: transparent;
+    margin-right    : 0;
+    padding         : 0;
+    color           : black;
 }
 
 input:active,
@@ -97,9 +97,8 @@ input:focus {
 }
 
 #recherche input {
-    font-weight : bold;
+    font-family: "ralewaybold";
     font-size   : 1rem;
-    color       : black;
     padding-left: 1rem;
 }
 
@@ -118,22 +117,26 @@ input:focus {
     font-weight    : bolder;
     text-decoration: none;
 }
+.bouton_rechercher i
+{
+    display: none;
+}
 
 #filtres {
     display    : flex;
-    font-weight: bolder;
     align-items: center;
-    font-size  : 15px;
+    font-family: "ralewaybold";
     max-width  : 1000px;
     margin-top : 15px;
     padding    : 0 25px;
-    flex-wrap: wrap;
+    flex-wrap  : wrap;
 }
 
 #filtres h2 {
-    font-size  : 15px;
-    margin-left: 0;
+    font-size   : 19px;
+    margin-left : 0;
     margin-right: 25px;
+    padding-left: 0%;
 }
 
 #filtres ul {
@@ -156,7 +159,7 @@ input:focus {
     border-left  : none;
     border-radius: 28px;
     padding-right: 20px;
-    margin: 5px 25px 5px 0;
+    margin       : 5px 25px 5px 0;
 }
 
 .eco:hover {
@@ -191,7 +194,7 @@ input:focus {
 #baniere_info {
     display    : flex;
     align-items: center;
-    padding: 0 25px;
+    padding    : 0 25px;
 }
 
 section {
@@ -200,17 +203,14 @@ section {
     grid-gap             : 50px;
     margin-bottom        : 3em;
     margin-top           : 1.8em;
-    padding: 0 25px;
+    padding              : 0 25px;
 }
 
 @media all and (max-width: 480px) {
-    #recherche {
-        width: auto;
-    }
-
     input {
         width: -webkit-fill-available;
     }
+
     #filtres ul {
         display  : flex;
         flex-wrap: wrap;
@@ -222,11 +222,30 @@ section {
         width         : 100%;
     }
 }
+@media all and (max-width: 431px)
+{
+    .bouton_rechercher i
+    {
+        display: inherit;
+        padding: 0%;
+        color: white;
+        background-color: transparent;
+    }
+    .bouton_rechercher a
+    {
+        display: none;
+    }
+}
 
 @media all and (max-width: 1024px) {
     section {
         grid-template-columns: auto;
-        padding: 0;
+        padding              : 0;
+    }
+
+    #recherche
+    {
+        width: auto;
     }
 
     body {
