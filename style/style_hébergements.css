@@ -11,7 +11,7 @@
 
 #hébergements h2 {
     margin-bottom: 0;
-    padding-left: 25px;
+    padding-left : 25px;
 }
 
 .hebergements1 {
@@ -50,14 +50,15 @@
     margin-left    : 2em;
     padding-top    : 1em;
     padding-bottom : 2em;
+    width          : 100px;
 }
-.hebergements1 i
-{
-    color: #0065FC;
-    padding: 0%;
+
+.hebergements1 i {
+    color           : #0065FC;
+    padding         : 0%;
     background-color: white;
-    margin: 0%;
-    font-size: 18px;
+    margin          : 0%;
+    font-size       : 18px;
 
 }
 
@@ -73,18 +74,19 @@
         grid-template-columns: auto auto;
         grid-template-rows   : 205px 205px 205px;
     }
-    #hébergements
-    {
+
+    #hébergements {
         background-color: white;
-        border-radius: 0;
+        border-radius   : 0;
     }
 }
-@media all and (max-width: 624px){
-    .hebergements1
-    {
+
+@media all and (max-width: 624px) {
+    .hebergements1 {
         grid-template-columns: auto;
     }
 }
+
 @media all and (max-width: 480px) {
     #hébergements {
         background-color: transparent;
