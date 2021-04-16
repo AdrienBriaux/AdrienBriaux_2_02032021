@@ -235,6 +235,10 @@ section {
     {
         display: none;
     }
+    .ico_recherche i 
+    {
+        display: contents;
+    }
 }
 
 @media all and (max-width: 1024px) {
