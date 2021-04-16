@@ -4,6 +4,7 @@
     align-items     : center;
     background-color: #F2F2F2;
     border-radius   : 15px 0 0 15px;
+    margin : 10px 20px 10px 20px;
 }
 
 .ico_map i {
@@ -11,15 +12,6 @@
     margin-right    : 0;
     padding         : 0;
     color           : black;
-}
-
-.ico_map img {
-    width : 1.5rem;
-    height: 1.5rem;
-}
-
-#info {
-    height: 25px;
 }
 
 .star2 {
@@ -39,7 +31,6 @@
 #titre_principal h1 {
     margin-bottom: 0px;
     font-size    : 1.5em;
-    font-weight  : bolder;
     padding      : 0 25px;
 }
 
@@ -76,22 +67,6 @@ i {
     font-style : normal;
 }
 
-@font-face {
-    font-family: 'ralewaybold';
-    src        : url('../Fonts/raleway-bold-webfont.woff2') format('woff2'),
-        url('../Fonts/raleway-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style : normal;
-}
-
-@font-face {
-    font-family: 'ralewayextrabold';
-    src        : url('../Fonts/raleway-extrabold-webfont.woff2') format('woff2'),
-        url('../Fonts/raleway-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style : normal;
-}
-
 body {
     font-family: 'ralewayregular';
     margin     : 0;
@@ -110,11 +85,6 @@ input:active,
 input:focus {
     outline: none;
     border : 0;
-}
-
-.ico_map {
-    display: flex;
-    margin : 10px 20px 10px 20px;
 }
 
 #recherche form {
@@ -221,6 +191,7 @@ input:focus {
 #baniere_info {
     display    : flex;
     align-items: center;
+    padding: 0 25px;
 }
 
 section {
