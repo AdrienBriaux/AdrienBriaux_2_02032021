@@ -3,7 +3,6 @@ header {
     align-items: center;
     padding-top: 20px;
     flex-wrap  : wrap;
-
 }
 
 #logo:nth-child(1) {
@@ -31,6 +30,8 @@ nav ul {
     font-weight: bolder;
     color      : #0065FC;
     margin     : 0 10px 0 10px;
+    background-color: unset;
+    border: none;
 }
 
 .inscription:hover {
