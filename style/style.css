@@ -217,7 +217,7 @@ input:focus {
         flex-wrap: wrap;
     }
 
-    section {
+    .first_section {
         display       : flex;
         flex-direction: column;
         width         : 100%;
@@ -242,7 +242,7 @@ input:focus {
 }
 
 @media all and (max-width: 1024px) {
-    section {
+    .first_section {
         grid-template-columns: auto;
         padding              : 0;
     }
