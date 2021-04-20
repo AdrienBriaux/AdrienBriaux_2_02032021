@@ -198,7 +198,7 @@ input:focus {
     padding    : 0 25px;
 }
 
-.first_section {
+#first_section {
     display              : grid;
     grid-template-columns: auto auto;
     grid-gap             : 50px;
@@ -217,7 +217,7 @@ input:focus {
         flex-wrap: wrap;
     }
 
-    .first_section {
+    #first_section {
         display       : flex;
         flex-direction: column;
         width         : 100%;
@@ -242,7 +242,7 @@ input:focus {
 }
 
 @media all and (max-width: 1024px) {
-    .first_section {
+    #first_section {
         grid-template-columns: auto;
         padding              : 0;
     }
