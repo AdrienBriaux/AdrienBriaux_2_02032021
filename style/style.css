@@ -198,7 +198,7 @@ input:focus {
     padding    : 0 25px;
 }
 
-section {
+.first_section {
     display              : grid;
     grid-template-columns: auto auto;
     grid-gap             : 50px;
