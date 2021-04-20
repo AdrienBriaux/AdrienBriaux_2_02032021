@@ -85,7 +85,7 @@ input:active,
 input:focus {
     outline: none;
     border : 0;
-    width: 100%;
+    width  : 100%;
 }
 
 #recherche form {
@@ -98,9 +98,9 @@ input:focus {
 }
 
 #recherche input {
-    font-family : "ralewaybold";
-    font-size   : 1rem;
-    padding-left: 1rem;
+    font-family  : "ralewaybold";
+    font-size    : 1rem;
+    padding-left : 1rem;
     padding-right: 1rem;
 }
 
@@ -168,7 +168,7 @@ input:focus {
 }
 
 .fami:hover {
-    background-color:#F2F2F2;
+    background-color: #F2F2F2;
 }
 
 .roman:hover {
